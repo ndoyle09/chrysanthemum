@@ -1,39 +1,155 @@
+/* Fonts */
+:root {
+  --font-body: 'Lora', sans-serif;
+  --font-headline: 'Playfair', serif;
+  --font-sub-headline: 'Poppins', sans-serif;
+}
+
+body,
+.font-body {
+  font-family: var(--font-body);
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.font-headline {
+  font-family: var(--font-headline);
+  font-weight: normal;
+}
+
+.font-sub-headline {
+  font-family: var(--font-sub-headline);
+  font-weight: bold;
+}
+
+/* Typographic Scale */
+html {
+  font-size: 16px;
+}
+
 body {
-    background-color: rgb(57, 169, 219);
-    font-family: Rubik, Arial;
-  }
-  
-  form {
-    text-align: center;
-    line-height: 30px;
-    height: 80%;
-    overflow: auto;
-  }
-  
-  form hr {
-    width: 15%;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  #overlay {
-    width: 80%;
-    margin: 3% auto;
-    height: 95vh;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 40px;
-  }
-  
-  #logo {
-    height: 100px;
-    display: block;
-    margin: auto;
-  }
-  
-  
-  .toppings label, .cheesy label {
-    margin-right: 25px;
-  }
-  
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-sub-headline);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1,
+.text-size-h1 {
+  font-family: var(--font-headline);
+  font-size: 3.05em;
+  margin-top: 0;
+}
+
+h2,
+.text-size-h2 {
+  font-size: 2.44em;
+}
+
+h3,
+.text-size-h3 {
+  font-size: 1.95em;
+}
+
+h4,
+.text-size-h4 {
+  font-size: 1.56em;
+}
+
+h5,
+.text-size-h5 {
+  font-size: 1.25em;
+}
+
+.text-caption {
+  font-size: 0.8em;
+}
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+
+/* Text Colors */
+:root {
+  --color-primary: #5B9279;
+  --color-angry-pasta: #FFC857;
+  --color-calabrese: #F4A8A8;
+  --color-disco: #8B2F4E;
+  --color-daisy-white: #F8F4E3;
+  --color-limousine-leather: #3C3C3B;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-angry-pasta {
+  color: var(--color-angry-pasta);
+}
+
+.color-calabrese {
+  color: var(--color-calabrese);
+}
+
+.color-disco {
+  color: var(--color-disco);
+}
+
+.color-daisy-white {
+  color: var(--color-daisy-white);
+}
+
+.color-limousine-leather {
+  color: var(--color-limousine-leather);
+}
+
+/* Background Colors */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-angry-pasta {
+  background-color: var(--color-angry-pasta);
+}
+
+.bg-calabrese {
+  background-color: var(--color-calabrese);
+}
+
+.bg-disco {
+  background-color: var(--color-disco);
+}
+
+.bg-daisy-white {
+  background-color: var(--color-daisy-white);
+}
+
+.bg-limousine-leather {
+  background-color: var(--color-limousine-leather);
+}
+
+body {
+  background-color: ;
+}
+
+nav {
+  background-color: var();
+}
