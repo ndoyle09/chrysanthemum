@@ -174,7 +174,7 @@ nav a::before {
   transition: transform .3s ease-in-out;
 }
 
-nav a:hover::before {
+nav .nav-menu,a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
