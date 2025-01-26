@@ -35,7 +35,7 @@ html {
 body {
   font-family: var(--font-body);
   font-weight: 400;
-  line-height: 1.65;
+  /* line-height: 1.65; */
   background-color: var(--color-daisy-white);
 }
 
@@ -129,20 +129,21 @@ nav {
   justify-content: center;
   align-items: center;
   font-family: inherit;
+  color: var(--color-daisy-white);
 }
 
 /* Links inside the nav bar */
 nav a, 
 nav button {
-  /* float: left; */
-  font-size: inherit;
-  text-decoration: none;
   color: var(--color-daisy-white);
+  font-size: 32px;
+  text-decoration: none;
   text-align: center;
   border: none;
   border-right: var(--color-daisy-white) solid 1px;
   cursor: pointer;
   padding: 1em;
+  width: 10em;
 
 }
 nav a:first-child {
@@ -175,14 +176,20 @@ nav a:first-child {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border: 0px;
+  padding: 0px;
+  line-height: 1.65em ;
 
 }
 /* Links inside the dropdown */
-.nav-menu-content a {
+.nav-menu-content a,
+.nav-menu-content a:first-child {
   color: var(--color-limousine-leather);
   text-decoration: none;
   text-align: left;
   display: block;
+  border: 0px;
+  
 }
 
 /* Add different background color to dropdown links on hover */
@@ -193,4 +200,8 @@ nav a:first-child {
 /* Show the dropdown menu on hover */
 .nav-menu:hover .nav-menu-content {
   display: block;
+}
+
+main {
+  line-height: 1.65em;
 }
