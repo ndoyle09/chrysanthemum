@@ -26,6 +26,11 @@ h5,
   font-weight: bold;
 }
 
+.font-tagline {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-
+}
+
 /* Typographic Scale */
 html {
   font-size: 16px;
@@ -122,6 +127,9 @@ small,
 .color-limousine-leather {
   color: var(--color-limousine-leather);
 }
+
+
+
 /* nav bar container */
 nav {
   background-color: var(--color-primary);
@@ -136,7 +144,7 @@ nav {
 nav a, 
 nav button {
   color: var(--color-daisy-white);
-  font-size: 32px;
+  font-size: var(--font-body);
   text-align: center;
   border: none;
   border-right: var(--color-daisy-white) solid 1px;
