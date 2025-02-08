@@ -1,3 +1,7 @@
+# Ideas?
+- This might be cool for a "Learning" page. To display information about common grains, hops, yeast strands, etc.
+  - https://codepen.io/pascaloliv/pen/LVZaeE
+
 # Beers
 ## American Pale Ale
 - Petal Hopper
