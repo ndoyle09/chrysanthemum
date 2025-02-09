@@ -2,6 +2,13 @@
 - This might be cool for a "Learning" page. To display information about common grains, hops, yeast strands, etc.
   - https://codepen.io/pascaloliv/pen/LVZaeE
 
+- Use this for the image gallery instead?
+  - (Landing Page with Swiper Slider) https://forfrontend.com/css-carousel/
+  - https://codepen.io/candroo/pen/wKEwRL
+  - https://forfrontend.com/animated-css-cards/#19_CSS_Card_Transition
+  - (Product Card Hover Effect) https://forfrontend.com/animated-css-cards/#19_CSS_Card_Transition
+
+
 # Beers
 ## American Pale Ale
 - Petal Hopper
