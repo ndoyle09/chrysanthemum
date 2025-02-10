@@ -112,3 +112,54 @@
 - "Nature’s Nectar, Perfectly Brewed."
 - "A Greenhouse of Flavor, A Garden of Goodness."
 - "Craft Beer, Naturally in Full Bloom."
+
+# Images
+1. Unsplash: https://unsplash.com
+  - Huge library of high-quality, professional-grade photos.
+  - Perfect for nature, lifestyle, food, and artistic visuals.
+  - License: Free for commercial and non-commercial use, no attribution required (but appreciated).
+
+2. Pexels: https://www.pexels.com
+- Extensive collection of high-resolution photos and videos.
+- Includes lots of business, nature, and lifestyle imagery suitable for marketing.
+- License: Free for commercial use, no attribution required.
+
+3. Pixabay: https://pixabay.com
+- Over 2 million free stock photos, illustrations, and videos.
+- Excellent for floral, craft beer, and nature-inspired visuals.
+- License: Free for commercial use, no attribution required.
+
+4. Burst by Shopify: https://burst.shopify.com
+- Specializes in e-commerce-friendly imagery.
+- Includes unique, curated collections like "Craft Beer" and "Small Businesses."
+- License: Free for commercial use, no attribution required.
+
+5. FoodiesFeed: https://www.foodiesfeed.com
+- Focused exclusively on food-related photography.
+- Perfect for breweries showcasing beer pairings or food events.
+- License: Free for commercial use, attribution appreciated but not required.
+
+6. Reshot: https://www.reshot.com
+- Handpicked, non-stocky images perfect for branding and marketing.
+- Ideal for creating a unique and authentic feel for your brand.
+- License: Free for commercial use, no attribution required.
+
+7. Gratisography: https://gratisography.com
+- Offers quirky, fun, and unique high-resolution images.
+- Great for standing out with unconventional marketing visuals.
+- License: Free for commercial use, no attribution required.
+
+8. RawPixel: https://www.rawpixel.com
+- Offers high-quality images, including floral and artistic themes.
+- Free section available, with premium options if needed.
+- License: Check each image, but most are free for commercial use.
+
+9. Life of Pix: https://www.lifeofpix.com
+- High-resolution, artsy photography contributed by professional photographers.
+- Includes lots of nature, outdoor, and urban visuals.
+- License: Free for commercial use, no attribution required.
+
+10. Kaboompics: https://kaboompics.com
+- Stunning high-res images with consistent aesthetics.
+- Includes a color palette tool for each image to help with branding.
+- License: Free for commercial use, no attribution required.

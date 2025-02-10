@@ -8,13 +8,13 @@
     <meta description="Welcome to Chrysanthemum Brewing Company, a floral-themed brewery in an old greenhouse.">
     <link rel="icon" type="image/x-icon" href="./assets/logo.ico" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/embla.css" />
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <script src="https://cdn.jsdelivr.net/npm/embla-carousel@6.0.0/dist/embla.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -24,8 +24,7 @@
             <a href="#ourbrewery">Our Brewery</a>
             <a href="#events">Events</a>
             <div class="nav-menu">
-                <button class="nav-menu-dropbtn">More Info<i class = "fa fa-caret-down"></i>
-                    </button>
+                <button class="nav-menu-dropbtn">More Info</button>
                 <div class="nav-menu-content">
                     <a href="#sustainability">Sustainability</a>
                     <a href="#store">Merch</a>
@@ -34,94 +33,62 @@
             </div>
         </nav>
     </header>
-    <section class="hero-container">
 
-        <!-- <h1>Welcome to Chrysanthemum Brewing Company</h1> -->
-        <h2 class="font-tagline">Brewed in Bloom</h2>
-
+    <section class="hero-container" id="hero-container">
+        <h2 class="hero-headline">Brewed<br/>in Bloom</h2>
     </section>
-    
+
     <main>
 
         <section id="hero-subheader-section">
-            <div>
-                <h2>Brewed in Bloom, Shared in Cheer</h2>
-            </div>
-            <div>
-                <p>Welcome to Chrysanthemum Brewing Company, where every sip is infused with the beauty of nature. Join us in celebrating community, sustainability, and the art of brewing.</p>
-            </div>
+            <h1>Brewed in Bloom, Crafted with Care</h1>
+            <p>Welcome to Chrysanthemum Brewing Company, where every sip is infused with the beauty of nature. Join us in celebrating community, sustainability, and the art of brewing.</p>
         </section>
 
         <section id="section-our-beers">
-            <h2>Our Flagship Beers</h2>
-            <h4>Our Core Brews - Crafted with Care, Rooted in Nature.</h4>
-
-            
-    <section class="embla">
-        <div class="embla__viewport">
-          <div class="embla__container">
-            <div class="embla__slide">
-              <div class="embla__slide__number">1</div>
+            <h1>Our Flagship Beers</h1>
+            <h4 class="font-sub-headline">Crafted with Care, Rooted in Nature.</h4>
+            <div class="our-beers">
+                <span id="beer-1">Beer 1</span>
+                <span id="beer-2">Beer 2</span>
+                <span id="beer-3">Beer 3</span>
+                <span id="beer-4">Beer 4</span>
             </div>
-            <div class="embla__slide">
-              <div class="embla__slide__number">2</div>
-            </div>
-            <div class="embla__slide">
-              <div class="embla__slide__number">3</div>
-            </div>
-            <div class="embla__slide">
-              <div class="embla__slide__number">4</div>
-            </div>
-            <div class="embla__slide">
-              <div class="embla__slide__number">5</div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="embla__controls">
-          <div class="embla__dots"></div>
-        </div>
-      </section>
-
-      
         </section>
 
-        <section id="section-events">
-            <h2>Our Committment to Community</h2>
-            <h2>Brewing Together for a Better Tomorrow</h2>
-            <div name="events-container">
-                <div class="event-showcase">
-                    <h3>Event 1</h3>
+        <section id="section-community">
+            <h1>Celebrating Our Impact</h1>
+            <h3>Rooted in Nature, Committed to Community</h3>
+            <div class="our-community">
+                <div class="community-card">
+                    <div class="community-card-img"></div>
+                    <h4>Pints & Poses</h4>
+                    <p>Whether you're a seasoned yogi or just here for the beer, our yoga sessions are designed to help you move, relax, and connect. Join us for a mindful practice followed by a refreshing post-class pint.</p>
+                    <button id="btn1">Learn More</button>
                 </div>
-                <div class="event-showcase">
-                    <h3>Event 2</h3>
+                <div class="community-card">
+                    <div class="community-card-img"></div>
+                    <h4>Cheers to Charity</h4>
+                    <p>Supporting local initiatives has never been easier (or more delicious). Enjoy our rotating Beer of the Month, and we'll donate a portion of sales to a cause that matters.</p>
+                    <button id="btn2">Learn More</button>
                 </div>
-                <div class="event-showcase">
-                    <h3>Event 3</h3>
+                <div class="community-card">
+                    <div class="community-card-img"></div>
+                    <h4>Tap Into Your Community</h4>
+                    <p>We believe great beer brings people together, and that includes supporting local home brewers. Each month, we open a tap for a local brewer to share their craft with our guests—submit your brew for a chance to be featured!</p>
+                    <button id="btn3">Learn More</button>
                 </div>
             </div>
-
         </section>
-
-        <section id="section-impact">
-            <h2>Impact Section</h2>
-
+        <section id="section-sustainability">
+            <h1>Sustainability Section</h1>
         </section>
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const emblaNode = document.querySelector('.embla');
-                const viewportNode = emblaNode.querySelector('.embla__viewport');
-                const emblaApi = new EmblaCarousel(viewportNode, { loop: true });
-    
-                console.log("Embla Carousel initialized!");
-            });
-        </script>
     </main>
-    
-    
+
+
     <footer>
         <section id="section-contact-us">
-    
+
         </section>
         <p>&copy; Chrysanthemum Brewing Company</p>
     </footer>

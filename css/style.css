@@ -3,34 +3,57 @@
   --font-body: 'Lora', sans-serif;
   --font-headline: 'Playfair', serif;
   --font-sub-headline: 'Poppins', sans-serif;
+
+  --color-primary: #5B9279;
+  --color-angry-pasta: #FFC857;
+  --color-calabrese: #F4A8A8;
+  --color-disco: #8B2F4E;
+  --color-daisy-white: #F8F4E3;
+  --color-limousine-leather: #3C3C3B;
 }
 
-body,
-.font-body {
-  font-family: var(--font-body);
-  font-weight: bold;
-}
 
 h1,
 h2,
 h3,
 h4,
-h5,
-.font-headline {
+h5 {
   font-family: var(--font-headline);
-  font-weight: normal;
+  font-weight: 400;
+  line-height: 1.15;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 3.15em;
+}
+
+h2 {
+  font-size: 2.44em;
+}
+
+h3 {
+  font-size: 1.95em;
+}
+
+h4 {
+  font-size: 1.56em;
+}
+
+h5 {
+  font-size: 1.25em;
 }
 
 .font-sub-headline {
   font-family: var(--font-sub-headline);
-  font-weight: bold;
 }
 
-.font-tagline {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.hero-headline {
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
   font-size: 17em;
   text-transform: uppercase;
   color: var(--color-daisy-white);
+  line-height: 0.8;
 }
 
 /* Typographic Scale */
@@ -42,7 +65,6 @@ html {
 body {
   font-family: var(--font-body);
   font-weight: 400;
-  /* line-height: 1.65; */
   background-color: var(--color-daisy-white);
 }
 
@@ -50,92 +72,36 @@ p {
   font-size: 1.25em;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: var(--font-sub-headline);
-  font-weight: 400;
-  line-height: 1.15;
-}
-
-h1,
-.text-size-h1 {
-  font-family: var(--font-headline);
-  font-size: 3.05em;
-  margin-top: 0;
-}
-
-h2,
-.text-size-h2 {
-  font-size: 2.44em;
-}
-
-h3,
-.text-size-h3 {
-  font-size: 1.95em;
-}
-
-h4,
-.text-size-h4 {
-  font-size: 1.56em;
-}
-
-h5,
-.text-size-h5 {
-  font-size: 1.25em;
-}
-
-.text-caption {
-  font-size: 0.8em;
-}
-
-small,
-.text-small {
-  font-size: 0.64em;
-}
-
-/* Text Colors */
-:root {
-  --color-primary: #5B9279;
-  --color-angry-pasta: #FFC857;
-  --color-calabrese: #F4A8A8;
-  --color-disco: #8B2F4E;
-  --color-daisy-white: #F8F4E3;
-  --color-limousine-leather: #3C3C3B;
-}
-
-.color-primary {
-  color: var(--color-primary);
-}
-
-.color-angry-pasta {
-  color: var(--color-angry-pasta);
-}
-
-.color-calabrese {
-  color: var(--color-calabrese);
-}
-
-.color-disco {
-  color: var(--color-disco);
-}
-
-.color-daisy-white {
-  color: var(--color-daisy-white);
-}
-
-.color-limousine-leather {
-  color: var(--color-limousine-leather);
-}
-
 header {
   position: sticky;
   top: 0;
   width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
+  
+}
 
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--color-limousine-leather);
+  margin: 1em;
+  padding: 1.5em;
+  background-color: var(--color-primary);  
+  cursor: pointer;
+}
+
+#btn1 {
+  box-shadow: 0.4em 0.4em 0px 0px var(--color-angry-pasta);
+
+}
+
+#btn2 {
+  box-shadow: 0.4em 0.4em 0px 0px var(--color-disco);
+
+}
+
+#btn3 {
+  box-shadow: 0.4em 0.4em 0px 0px var(--color-calabrese);
 }
 
 /* nav bar container */
@@ -150,7 +116,7 @@ nav {
 }
 
 /* Links inside the nav bar */
-nav a, 
+nav a,
 nav button {
   color: var(--color-daisy-white);
   font-size: 1.33em;
@@ -160,7 +126,6 @@ nav button {
   cursor: pointer;
   padding: 1em;
   width: 10em;
-
 
   text-transform: uppercase;
   text-decoration: underline 0.15em #385B4B;
@@ -202,8 +167,6 @@ nav a:first-child {
 
 /* Dropdown button */
 .nav-menu .nav-menu-dropbtn {
-  
-  /* text-decoration: none; */
   color: var(--color-daisy-white);
   text-align: center;
   background-color: inherit;
@@ -219,13 +182,14 @@ nav a:first-child {
   position: absolute;
   background-color: var(--color-daisy-white);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border: 0px;
   padding: 0px;
-  line-height: 1.65em ;
+  line-height: 1.65em;
 
 }
+
 /* Links inside the dropdown */
 .nav-menu-content a,
 .nav-menu-content a:first-child {
@@ -234,7 +198,7 @@ nav a:first-child {
   text-align: left;
   display: block;
   border: 0px;
-  
+
 }
 
 /* Add different background color to dropdown links on hover */
@@ -249,28 +213,79 @@ nav a:first-child {
 
 .hero-container {
   margin: 10px;
-  padding: 50px;
+  padding: 0px 50px;
   min-height: 650px;
   background-image: url("../img/4.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
 }
 
 
 main {
   line-height: 1.65em;
-  outline: auto;
-  padding: 25px 10%;
+  padding: 0px 10%;
 
 }
 
 main section {
-  outline: auto;
   margin: 10px 50px;
   padding: 10px;
 }
+
+.our-beers {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+
+}
+
+.our-beers span {
+  width: 300px;
+  height: 300px;
+  margin: 1.67em 0.25em;
+  padding: 10px;
+}
+
+#beer-1 {
+  background-color: firebrick;
+}
+
+#beer-2 {
+  background-color: powderblue;
+}
+
+#beer-3 {
+  background-color: peru;
+}
+
+#beer-4 {
+  background-color: yellowgreen;
+}
+
+
+.our-community {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+}
+
+.community-card {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.community-card-img {
+  background-color: gainsboro;
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+}
+
 
 footer {
   outline: auto;
