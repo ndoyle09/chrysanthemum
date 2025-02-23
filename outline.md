@@ -113,7 +113,20 @@
 - "A Greenhouse of Flavor, A Garden of Goodness."
 - "Craft Beer, Naturally in Full Bloom."
 
+## Per Section
+### Events / Community
+- **Pints for a Purpose**: Supporting local initiatives has never been easier (or more delicious). Enjoy our rotating Beer of the Month, and we’ll donate a portion of sales to a cause that matters.
+- Makers/Farmers Market
+- Animal Adoption
+- Brewer Q&A Office Hours
+- Floral Arranging
+
+### Sustainability
+
+
+
 # Images
+
 1. Unsplash: https://unsplash.com
   - Huge library of high-quality, professional-grade photos.
   - Perfect for nature, lifestyle, food, and artistic visuals.
@@ -163,3 +176,17 @@
 - Stunning high-res images with consistent aesthetics.
 - Includes a color palette tool for each image to help with branding.
 - License: Free for commercial use, no attribution required.
+
+# 
+
+
+
+
+
+
+
+
+
+
+
+

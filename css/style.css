@@ -90,20 +90,6 @@ button {
   cursor: pointer;
 }
 
-#btn1 {
-  box-shadow: 0.4em 0.4em 0px 0px var(--color-angry-pasta);
-
-}
-
-#btn2 {
-  box-shadow: 0.4em 0.4em 0px 0px var(--color-disco);
-
-}
-
-#btn3 {
-  box-shadow: 0.4em 0.4em 0px 0px var(--color-calabrese);
-}
-
 /* nav bar container */
 nav {
   background-color: var(--color-primary);
@@ -113,6 +99,7 @@ nav {
   font-family: inherit;
   color: var(--color-daisy-white);
   min-height: 5em;
+  position: sticky;
 }
 
 /* Links inside the nav bar */
@@ -266,27 +253,48 @@ main section {
 }
 
 
-.our-community {
+.our-community,
+.our-sustainability {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: space-evenly;
+  outline: orange solid;
+  align-items: start;
 }
 
-.community-card {
-  width: auto;
-  height: auto;
+.community-card,
+.sustainability-card {
   padding: 10px;
   text-align: center;
+  outline: blue solid;
+  margin: 3px;
 }
 
-.community-card-img {
+
+#btn1 {
+  box-shadow: 0.4em 0.4em 0px 0px var(--color-angry-pasta);
+}
+
+#btn2 {
+  box-shadow: 0.4em 0.4em 0px 0px var(--color-disco);
+}
+
+#btn3 {
+  box-shadow: 0.4em 0.4em 0px 0px var(--color-calabrese);
+}
+
+
+.community-card img,
+.sustainability-card img {
   background-color: gainsboro;
+  object-fit: cover;
   width: 100%;
-  height: 300px;
-  overflow: auto;
+  height: 25%;
+  max-height: 50%;
 }
 
 
 footer {
+  background-color: gainsboro;
   outline: auto;
+  height: 20em;
 }
