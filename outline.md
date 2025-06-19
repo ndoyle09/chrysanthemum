@@ -31,6 +31,27 @@
 - Greenhouse Groove
 - Everbloom IPA
 
+### Pollen Cloud
+- ABV: 6.8%
+
+#### Flavor
+_Pollen Cloud_ is a lush, nectar-sweet New England-style IPA that leans fully into the floral realm.
+
+- Primary Notes: Bursting with orange blossom honey, tangerine, and ripe cantaloupe.
+- Floral Elements: Lavender, elderflower, and a soft whisper of rose petals.
+- Hop Selection: A fragrant blend of Mosaic and Citra for citrus juiciness, with Cashmere and Loral layering in soft florals and a touch of melon.
+- Mouthfeel: Thick and velvety with a natural sweetness that feels almost like sipping on a honeyed floral nectar. Soft carbonation keeps it plush but never heavy.
+
+#### Look
+_Pollen Cloud_ pours like tangerine juice—vivid, opaque, and glowing orange with a creamy golden haze. The head is pale ivory and soft, fading into delicate lace. The beer looks as if it were squeezed from a sunlit orchard and stirred with a bouquet of wildflowers.
+
+#### Themes
+- **A golden afternoon** in a field of wildflowers, pollen drifting on sunbeams.
+- **A midsummer nap** beneath flowering citrus trees.
+- **A glass conservatory**, humid with orchid blooms and citrus peels.
+- **The sweetness of memory**, like childhood lemonade stands and barefoot walks through clover.
+- **A dreamy haze**, where time slows down and scent and color take over.
+
 ## Hefeweizen
 - Sunlit Wheat
 - Golden Greenhouse
@@ -173,7 +194,7 @@
 - License: Free for commercial use, no attribution required.
 
 10. Kaboompics: https://kaboompics.com
-- Stunning high-res images with consistent aesthetics.
+- Stunning high-res images with consistent aesthetics. 
 - Includes a color palette tool for each image to help with branding.
 - License: Free for commercial use, no attribution required.
 
